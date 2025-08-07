@@ -1,7 +1,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=nordvpn
-PKG_VERSION:=ee3967fc8f672aecf9ac6c3686964a62b0b70442
+# TODO: the package here always refers to the latest version of the package which is good for testing but not so good for distributing
+PKG_VERSION:=main
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git

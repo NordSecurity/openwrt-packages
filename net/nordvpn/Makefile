@@ -1,12 +1,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=nordvpn
-# TODO: the package here always refers to the latest version of the package which is good for testing but not so good for distributing
-PKG_VERSION:=v9.9.9
+PKG_VERSION:=v0.0.1
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL=https://github.com/NordSecurity/libtelio.git
+
+# TODO: the PKG_SOURCE_VERSION always refers to the latest code which is good for testing but not so good for distributing. It should be tagged with the version
+# we're happy to release
 PKG_SOURCE_VERSION:=main
 PKG_MIRROR_HASH:=skip
 
